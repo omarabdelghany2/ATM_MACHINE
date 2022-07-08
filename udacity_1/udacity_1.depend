@@ -1,0 +1,31 @@
+# depslib dependency file v1.0
+1657286311 source:c:\users\pc\documents\codeblocks\udacity_1\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Card.h"
+	"Terminal.h"
+
+1657173848 source:c:\users\pc\documents\codeblocks\udacity_1\try.c
+	"try.h"
+
+1657173848 c:\users\pc\documents\codeblocks\udacity_1\try.h
+
+1657209341 source:c:\users\pc\documents\codeblocks\udacity_1\card.h
+
+1657282094 source:c:\users\pc\documents\codeblocks\udacity_1\card.c
+	"Card.h"
+	<stdio.h>
+	<stdlib.h>
+
+1657209341 c:\users\pc\documents\codeblocks\udacity_1\card.h
+
+1657209371 source:c:\users\pc\documents\codeblocks\udacity_1\terminal.h
+
+1657286384 source:c:\users\pc\documents\codeblocks\udacity_1\terminal.c
+	"Terminal.h"
+	<stdio.h>
+	<stdlib.h>
+
+1657284787 c:\users\pc\documents\codeblocks\udacity_1\terminal.h
+	"Card.h"
+
