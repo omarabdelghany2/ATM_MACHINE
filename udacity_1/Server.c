@@ -77,7 +77,7 @@ EN_serverError_t isValidAccount(ST_cardData_t *cardData)
 
        }
     }
-
+    printf("Not Valid Account");
     return(DECLINED_STOLEN_CARD);
 }
 
@@ -110,7 +110,10 @@ EN_serverError_t saveTransaction(ST_transaction_t *transData)
     scanf("%c",&input);
     scanf("%c",&input);
     if(input=='X')
+    {
+        printf("cancled\n");
         return(SAVING_FAILED);
+    }
     else
     {
         transactions[TransIndex].cardHolderData=transData->cardHolderData;
