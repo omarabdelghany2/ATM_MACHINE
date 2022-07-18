@@ -1,9 +1,8 @@
 # depslib dependency file v1.0
-1657286311 source:c:\users\pc\documents\codeblocks\udacity_1\main.c
+1658115096 source:c:\users\pc\documents\codeblocks\udacity_1\main.c
 	<stdio.h>
 	<stdlib.h>
-	"Card.h"
-	"Terminal.h"
+	"App.h"
 
 1657173848 source:c:\users\pc\documents\codeblocks\udacity_1\try.c
 	"try.h"
@@ -12,7 +11,7 @@
 
 1657209341 source:c:\users\pc\documents\codeblocks\udacity_1\card.h
 
-1657282094 source:c:\users\pc\documents\codeblocks\udacity_1\card.c
+1657979485 source:c:\users\pc\documents\codeblocks\udacity_1\card.c
 	"Card.h"
 	<stdio.h>
 	<stdlib.h>
@@ -28,4 +27,32 @@
 
 1657284787 c:\users\pc\documents\codeblocks\udacity_1\terminal.h
 	"Card.h"
+
+1658114698 source:c:\users\pc\documents\codeblocks\udacity_1\server.c
+	"Server.h"
+	<stdio.h>
+	<stdlib.h>
+	"DataBase.h"
+
+1658092163 c:\users\pc\documents\codeblocks\udacity_1\server.h
+	"Card.h"
+	"Terminal.h"
+
+1658090368 c:\users\pc\documents\codeblocks\udacity_1\database.h
+	"Server.h"
+
+1658088377 c:\users\pc\documents\codeblocks\udacity_1\server.c
+	"Server.h"
+	<stdio.h>
+	<stdlib.h>
+
+1658114990 source:c:\users\pc\documents\codeblocks\udacity_1\app.c
+	"App.h"
+
+1658114990 c:\users\pc\documents\codeblocks\udacity_1\app.h
+	<stdio.h>
+	<stdlib.h>
+	"Card.h"
+	"Terminal.h"
+	"server.h"
 

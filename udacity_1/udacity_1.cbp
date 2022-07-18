@@ -35,6 +35,15 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="Card.h" />
+		<Unit filename="DataBase.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="Server.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Server.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
 		<Unit filename="Terminal.c">
 			<Option compilerVar="CC" />
 		</Unit>

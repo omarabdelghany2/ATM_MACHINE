@@ -50,7 +50,7 @@ EN_cardError_t getCardExpiryDate(ST_cardData_t *cardData)
             coun_Size++;
     }
     /*limitations on Date input
-    1)not more than 5 chacaters
+    1)not more than 5 characters
     2)not more that 12 in months >>not less that 22 in years>>and not ==00/00
     */
     if(coun_Size<5||coun_Size>5)
@@ -64,7 +64,7 @@ EN_cardError_t getCardExpiryDate(ST_cardData_t *cardData)
   limitMonths=(input[0]-48)*10+(input[1]-48);
   limitYear  =(input[3]-48)*10+(input[4]-48);
 
-//use them to limit the invalid expirey date
+//use them to limit the invalid expire date
 
   if(limitMonths>12||limitMonths<=0)
     return(WRONG_EXP_DATE);
